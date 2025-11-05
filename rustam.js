@@ -1,4 +1,3 @@
-
 function getAccessKey() {
   // Store encoded version
   const encoded = 'NjZiMDU4ZDYtMmEyNy00MWRiLWJkMzMtYzJlMTJhZWU2NGRj';
