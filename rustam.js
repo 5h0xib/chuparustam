@@ -6,7 +6,9 @@ function getAccessKey() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelector('[name="access_key"]').value = getAccessKey();
+  document.querySelectorAll('[name="access_key"]').forEach(field => {
+    field.value = getAccessKey();
+  });
 });
 */
 
@@ -32,8 +34,11 @@ function getAccessKey() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelector('[name="access_key"]').value = getAccessKey();
+  document.querySelectorAll('[name="access_key"]').forEach(field => {
+    field.value = getAccessKey();
+  });
 });
 */
+
 
 
